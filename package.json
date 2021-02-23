@@ -8,18 +8,28 @@
         "@testing-library/react": "^11.2.3",
         "@testing-library/user-event": "^12.6.0",
         "axios": "^0.21.1",
+        "debounce": "^1.2.0",
+        "formik": "^2.2.6",
+        "modern-normalize": "^1.0.0",
+        "moment": "^2.29.1",
         "react": "^17.0.1",
+        "react-datepicker": "^3.4.1",
         "react-dom": "^17.0.1",
         "react-loader-spinner": "^4.0.0",
+        "react-media": "^1.10.0",
         "react-redux": "^7.2.2",
+        "react-responsive": "^8.2.0",
         "react-router-dom": "^5.2.0",
-        "react-scripts": "4.0.1",
+        "react-scripts": "^4.0.1",
         "react-transition-group": "^4.4.1",
+        "react-uuid": "^1.0.2",
+        "react-window": "^1.8.6",
         "redux": "^4.0.5",
         "redux-devtools-extension": "^2.13.8",
         "redux-persist": "^6.0.0",
         "styled-components": "^5.2.1",
-        "web-vitals": "^0.2.4"
+        "web-vitals": "^0.2.4",
+        "yup": "^0.32.8"
     },
     "scripts": {
         "start": "react-scripts start",
@@ -46,5 +56,11 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
+    },
+    "devDependencies": {
+        "@babel/core": "^7.12.3",
+        "@babel/helper-define-map": "^7.12.13",
+        "@babel/helpers": "^7.12.13",
+        "@babel/preset-react": "^7.12.13"
     }
 }
